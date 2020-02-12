@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Register">
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/firstName"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginTop="70dp"
@@ -17,7 +17,7 @@
         tools:layout_editor_absoluteX="37dp" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/sign"
         android:layout_width="240dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="258dp" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/contactNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -37,18 +37,17 @@
         tools:layout_editor_absoluteY="202dp" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:layout_marginTop="300dp"
         android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="37dp"
         tools:layout_editor_absoluteY="128dp"
         tools:text="Email Address" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/lastName"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginTop="70dp"
@@ -59,7 +58,7 @@
         tools:layout_editor_absoluteX="225dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/registration"
         android:layout_width="310dp"
         android:layout_height="46dp"
         android:layout_marginTop="70dp"
